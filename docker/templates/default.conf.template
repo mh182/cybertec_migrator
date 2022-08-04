@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: 2022 CYBERTEC PostgreSQL International GmbH <office@cybertec.at>
 
 upstream api {
-	server core:3000;
+	server localhost:3000;
 }
 
 server {
